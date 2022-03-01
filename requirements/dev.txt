@@ -12,7 +12,7 @@ attrs==21.2.0
     # via pytest
 babel==2.9.1
     # via sphinx
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 blinker==1.4
     # via -r requirements/tests.in
@@ -145,7 +145,7 @@ types-contextvars==0.1.4
     # via -r requirements/typing.in
 types-dataclasses==0.1.7
     # via -r requirements/typing.in
-types-setuptools==57.4.0
+types-setuptools==57.4.9
     # via -r requirements/typing.in
 typing-extensions==3.10.0.2
     # via mypy
