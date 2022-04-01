@@ -12,7 +12,7 @@ attrs==21.2.0
     # via pytest
 babel==2.9.1
     # via sphinx
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 blinker==1.4
     # via -r requirements/tests.in
@@ -30,7 +30,7 @@ cryptography==35.0.0
     # via -r requirements/typing.in
 distlib==0.3.3
     # via virtualenv
-docutils==0.16
+docutils==0.17.1
     # via
     #   sphinx
     #   sphinx-tabs
@@ -115,7 +115,7 @@ sphinx==4.2.0
     #   sphinxcontrib-log-cabinet
 sphinx-issues==1.2.0
     # via -r requirements/docs.in
-sphinx-tabs==3.2.0
+sphinx-tabs==3.3.1
     # via -r requirements/docs.in
 sphinxcontrib-applehelp==1.0.2
     # via sphinx
