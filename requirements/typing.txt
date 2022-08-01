@@ -6,7 +6,7 @@
 #
 cffi==1.14.6
     # via cryptography
-cryptography==35.0.0
+cryptography==37.0.4
     # via -r requirements/typing.in
 mypy==0.910
     # via -r requirements/typing.in
