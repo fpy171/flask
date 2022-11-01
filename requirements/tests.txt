@@ -10,6 +10,8 @@ attrs==21.2.0
     # via pytest
 blinker==1.4
     # via -r requirements/tests.in
+exceptiongroup==1.0.0
+    # via pytest
 greenlet==1.1.2
     # via -r requirements/tests.in
 iniconfig==1.1.1
@@ -18,13 +20,11 @@ packaging==21.0
     # via pytest
 pluggy==1.0.0
     # via pytest
-py==1.10.0
-    # via pytest
 pyparsing==2.4.7
     # via packaging
-pytest==6.2.5
+pytest==7.2.0
     # via -r requirements/tests.in
 python-dotenv==0.19.0
     # via -r requirements/tests.in
-toml==0.10.2
+tomli==2.0.1
     # via pytest
