@@ -12,7 +12,7 @@ attrs==21.2.0
     # via pytest
 babel==2.9.1
     # via sphinx
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 blinker==1.4
     # via -r requirements/tests.in
@@ -136,10 +136,9 @@ toml==0.10.2
     #   mypy
     #   pre-commit
     #   pytest
-    #   tox
 tomli==1.2.1
     # via pep517
-tox==3.24.4
+tox==3.28.0
     # via -r requirements/dev.in
 types-contextvars==0.1.4
     # via -r requirements/typing.in
