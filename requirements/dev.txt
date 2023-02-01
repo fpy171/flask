@@ -12,29 +12,33 @@ attrs==21.2.0
     # via pytest
 babel==2.9.1
     # via sphinx
-backports.entry-points-selectable==1.1.0
-    # via virtualenv
 blinker==1.4
     # via -r requirements/tests.in
+cachetools==5.3.0
+    # via tox
 certifi==2021.5.30
     # via requests
 cffi==1.14.6
     # via cryptography
 cfgv==3.3.1
     # via pre-commit
+chardet==5.1.0
+    # via tox
 charset-normalizer==2.0.6
     # via requests
 click==8.0.1
     # via pip-tools
+colorama==0.4.6
+    # via tox
 cryptography==35.0.0
     # via -r requirements/typing.in
-distlib==0.3.3
+distlib==0.3.6
     # via virtualenv
 docutils==0.16
     # via
     #   sphinx
     #   sphinx-tabs
-filelock==3.2.0
+filelock==3.9.0
     # via
     #   tox
     #   virtualenv
@@ -58,9 +62,10 @@ mypy-extensions==0.4.3
     # via mypy
 nodeenv==1.6.0
     # via pre-commit
-packaging==21.0
+packaging==23.0
     # via
     #   pallets-sphinx-themes
+    #   pyproject-api
     #   pytest
     #   sphinx
     #   tox
@@ -70,8 +75,10 @@ pep517==0.11.0
     # via pip-tools
 pip-tools==6.3.0
     # via -r requirements/dev.in
-platformdirs==2.4.0
-    # via virtualenv
+platformdirs==2.6.2
+    # via
+    #   tox
+    #   virtualenv
 pluggy==1.0.0
     # via
     #   pytest
@@ -79,17 +86,15 @@ pluggy==1.0.0
 pre-commit==2.15.0
     # via -r requirements/dev.in
 py==1.10.0
-    # via
-    #   pytest
-    #   tox
+    # via pytest
 pycparser==2.20
     # via cffi
 pygments==2.10.0
     # via
     #   sphinx
     #   sphinx-tabs
-pyparsing==2.4.7
-    # via packaging
+pyproject-api==1.5.0
+    # via tox
 pytest==6.2.5
     # via -r requirements/tests.in
 python-dotenv==0.19.0
@@ -100,10 +105,6 @@ pyyaml==5.4.1
     # via pre-commit
 requests==2.26.0
     # via sphinx
-six==1.16.0
-    # via
-    #   tox
-    #   virtualenv
 snowballstemmer==2.1.0
     # via sphinx
 sphinx==4.2.0
@@ -136,10 +137,9 @@ toml==0.10.2
     #   mypy
     #   pre-commit
     #   pytest
-    #   tox
 tomli==1.2.1
     # via pep517
-tox==3.24.4
+tox==4.4.4
     # via -r requirements/dev.in
 types-contextvars==0.1.4
     # via -r requirements/typing.in
@@ -151,7 +151,7 @@ typing-extensions==3.10.0.2
     # via mypy
 urllib3==1.26.7
     # via requests
-virtualenv==20.8.1
+virtualenv==20.17.1
     # via
     #   pre-commit
     #   tox
