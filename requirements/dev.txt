@@ -12,7 +12,7 @@ attrs==21.2.0
     # via pytest
 babel==2.9.1
     # via sphinx
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 blinker==1.4
     # via -r requirements/tests.in
@@ -92,7 +92,7 @@ pyparsing==2.4.7
     # via packaging
 pytest==6.2.5
     # via -r requirements/tests.in
-python-dotenv==0.19.0
+python-dotenv==1.0.0
     # via -r requirements/tests.in
 pytz==2021.1
     # via babel
